@@ -1,6 +1,6 @@
 # CakePHP Essentails
 
-Bundle of CakePHP essentials core library.
+Bundle of CakePHP essentials core libraries.
 
 This package is a composer meta-package bundling
 `cakephp`, `migrations`, `plugin-installer` and the `mobiledetect` libraries
@@ -21,5 +21,8 @@ just use this package.
 Note:
 The first 2 composer commands `composer config minimum-stability dev` and
 `config prefer-stable 1` are necessary because the
-CakePHP Migration plugin dependency (cakephp/migration) is not stable yet.
+CakePHP Migration plugin dependency (cakephp/migrations) is not stable yet.
 
+## Versioning
+
+[TODO]
