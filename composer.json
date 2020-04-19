@@ -2,7 +2,7 @@
     "name": "fm-labs/cakephp-essentials",
     "description": "CakePHP core essentials meta package",
     "type": "metapackage",
-    "license": "The Unlicense",
+    "license": "Unlicense",
     "authors": [
         {
             "name": "fm-labs",
