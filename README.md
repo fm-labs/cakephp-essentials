@@ -1,12 +1,12 @@
-# CakePHP Essentails
+# CakePHP Core Essentials
 
 Bundle of CakePHP essentials core libraries.
 
 This package is a composer meta-package bundling
 `cakephp`, `migrations`, `plugin-installer` and the `mobiledetect` libraries
 
-Instead of adding and maintaining all core dependencies in each CakePHP project,
-just use this package.
+Instead of adding and maintaining all core dependencies in each CakePHP project separately,
+just drop in this package.
 
 ## Installation
 
@@ -26,3 +26,9 @@ CakePHP Migration plugin dependency (cakephp/migrations) is not stable yet.
 ## Versioning
 
 [TODO]
+
+## Dev Tools
+
+There is also a meta-package for various PHP/CakePHP developer tools:
+
+[fm-labs/cakephp-devtools](https://github.com/fm-labs/devtools)
