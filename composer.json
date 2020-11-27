@@ -9,7 +9,6 @@
             "email": "flowmotionlabs@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": ">=7.2",
