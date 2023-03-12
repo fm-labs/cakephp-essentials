@@ -12,6 +12,11 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.4",
+        "ext-json": "*",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "cakephp/authentication": "^2.10",
+        "cakephp/authorization": "^2.3",
         "cakephp/cakephp": "^4.4",
         "cakephp/migrations": "^3.0",
         "cakephp/plugin-installer": "^1.2",
