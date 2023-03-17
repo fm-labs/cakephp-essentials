@@ -2,24 +2,30 @@
     "name": "fm-labs/cakephp-essentials",
     "description": "CakePHP core essentials meta package",
     "type": "metapackage",
-    "license": "Unlicense",
+    "license": "MIT",
     "authors": [
         {
             "name": "fm-labs",
             "email": "flowmotionlabs@gmail.com"
         }
     ],
-    "prefer-stable": true,
     "require": {
         "php": ">=7.4",
         "ext-json": "*",
         "ext-intl": "*",
         "ext-mbstring": "*",
+        "cakephp/cakephp": "^4.4",
         "cakephp/authentication": "^2.10",
         "cakephp/authorization": "^2.3",
-        "cakephp/cakephp": "^4.4",
-        "cakephp/migrations": "^3.0",
-        "cakephp/plugin-installer": "^1.2",
+        "cakephp/migrations": "@stable",
+        "cakephp/plugin-installer": "^1.3",
         "mobiledetect/mobiledetectlib": "^3"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "cakephp/plugin-installer": true
+        }
     }
 }
