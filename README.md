@@ -11,24 +11,23 @@ just drop in this package.
 ## Installation
 
 ```
- # In your CakePHP project directory
+composer require fm-labs/cakephp-essentials:^5
 
- composer config minimum-stability dev
- composer config prefer-stable 1
- composer require --dev fm-labs/cakephp-essentials dev-master
+# For older CakePHP4 projects, use:
+composer require fm-labs/cakephp-essentials:^4
 ```
-
-Note:
-The first 2 composer commands `composer config minimum-stability dev` and
-`config prefer-stable 1` are necessary because the
-CakePHP Migration plugin dependency (cakephp/migrations) is not stable yet.
-
-## Versioning
-
-[TODO]
 
 ## Dev Tools
 
-There is also a meta-package for various PHP/CakePHP developer tools:
+Optionally install the [fm-labs/cakephp-devtools](https://github.com/fm-labs/cakephp-devtools) package for additional
+development tools.
 
-[fm-labs/cakephp-devtools](https://github.com/fm-labs/devtools)
+```
+composer require fm-labs/cakephp-devtools:^5
+
+# For older CakePHP4 projects, use:
+composer require fm-labs/cakephp-devtools:^4
+```
+
+
+
